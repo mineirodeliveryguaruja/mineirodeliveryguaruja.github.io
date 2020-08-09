@@ -1,0 +1,28 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.flex > div{
+  flex: 1 1 200px;
+  margin: 15px;
+  border: 1px grey solid;
+  border-radius: 1px;
+  box-shadow: 1px 1px grey;
+  margin-bottom: 30px;
+}
+
+.flex > div > p{
+  text-align: center;
+  font-family: Catamaran;
+  border-top: 1px grey dotted;
+  border-bottom: 1px grey dotted;
+  padding: 10px;
+}
